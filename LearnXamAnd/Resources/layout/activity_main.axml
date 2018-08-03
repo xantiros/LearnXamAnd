@@ -30,4 +30,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/TranslateButton"
         android:id="@+id/TranslatePhoneWord" />
+    <Button
+        android:text="@string/translationHistory"
+        android:layout_width="383.0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TranslatePhoneWord"
+        android:id="@+id/TranslationHistoryButton"
+        android:enabled="false" />
 </RelativeLayout>
