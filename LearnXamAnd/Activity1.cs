@@ -8,7 +8,6 @@ namespace LearnXamAnd
     [Activity(Label = "Activity1", MainLauncher = true)]
     public class Activity1 : Activity
     {
-        int count = 1;
         private List<string> mItems;
         private ListView mListView;
 
@@ -25,7 +24,9 @@ namespace LearnXamAnd
             mItems.Add("James");
             mItems.Add("Jimy");
 
-            ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mItems);
+            //ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mItems);
+
+            MyListViewAdapter adapter = new MyListViewAdapter(this, mItems);
 
             mListView.Adapter = adapter;
         }
