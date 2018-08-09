@@ -32,17 +32,17 @@ namespace PhoneWorld
                     return;
                 }
 
-                    var callDialog = new AlertDialog.Builder(this);
-                    callDialog.SetMessage(Resources.GetText(Resource.String.alert_info));
-                    callDialog.SetNeutralButton(Resources.GetText(Resource.String.call_text), delegate
-                    {
-                        var callIntent = new Intent(Intent.ActionCall);
-                        callIntent.SetData(Android.Net.Uri.Parse("tel: " + phoneNumber));
-                        StartActivity(callIntent);
-                    });
+                var callDialog = new AlertDialog.Builder(this);
+                callDialog.SetMessage(Resources.GetText(Resource.String.alert_info));
+                callDialog.SetNeutralButton(Resources.GetText(Resource.String.call_text), delegate
+                {
+                    var callIntent = new Intent(Intent.ActionCall);
+                    callIntent.SetData(Android.Net.Uri.Parse("tel: " + phoneNumber));
+                    StartActivity(callIntent);
+                });
 
-                    callDialog.SetNegativeButton(Resources.GetText(Resource.String.cancel), delegate { });
-                    callDialog.Show();
+                callDialog.SetNegativeButton(Resources.GetText(Resource.String.cancel), delegate { });
+                callDialog.Show();
 
             };
 
