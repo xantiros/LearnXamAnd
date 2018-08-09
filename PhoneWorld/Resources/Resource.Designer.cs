@@ -3222,6 +3222,9 @@ namespace PhoneWorld
 			// aapt resource value: 0x7f090028
 			public const int action_settings = 2131296296;
 			
+			// aapt resource value: 0x7f09002c
+			public const int alert_info = 2131296300;
+			
 			// aapt resource value: 0x7f090027
 			public const int app_name = 2131296295;
 			
@@ -3233,6 +3236,9 @@ namespace PhoneWorld
 			
 			// aapt resource value: 0x7f09002a
 			public const int call_text = 2131296298;
+			
+			// aapt resource value: 0x7f09002b
+			public const int cancel = 2131296299;
 			
 			// aapt resource value: 0x7f090020
 			public const int character_counter_pattern = 2131296288;

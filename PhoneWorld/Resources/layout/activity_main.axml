@@ -12,9 +12,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView1" />
     <EditText
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/phoneNumber" />
+        android:id="@+id/phoneNumber"
+        android:maxLines="1"
+        android:maxLength="9"
+        android:ellipsize="end" />
     <Button
         android:text="@string/call_text"
         android:layout_width="match_parent"

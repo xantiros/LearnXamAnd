@@ -21,11 +21,30 @@ namespace PhoneWorld
 
             callButton.Click += (object sender, EventArgs e) =>
             {
-                var callIntent = new Intent(Intent.ActionCall);
-                callIntent.SetData(Android.Net.Uri.Parse("tel: " + phoneNumber));
-                StartActivity(callIntent);
-            };
+                if(phoneNumber.Length() < 9)
+                {
+                    var errorDialog = new AlertDialog.Builder(this);
+                    errorDialog.SetTitle("Error");
+                    errorDialog.SetMessage("Enter a 9 character number");
+                    errorDialog.SetNegativeButton("Cancel", (a, b) => { return; });
+                    Dialog dialog = errorDialog.Create();
+                    dialog.Show();
+                    return;
+                }
 
+                    var callDialog = new AlertDialog.Builder(this);
+                    callDialog.SetMessage(Resources.GetText(Resource.String.alert_info));
+                    callDialog.SetNeutralButton(Resources.GetText(Resource.String.call_text), delegate
+                    {
+                        var callIntent = new Intent(Intent.ActionCall);
+                        callIntent.SetData(Android.Net.Uri.Parse("tel: " + phoneNumber));
+                        StartActivity(callIntent);
+                    });
+
+                    callDialog.SetNegativeButton(Resources.GetText(Resource.String.cancel), delegate { });
+                    callDialog.Show();
+
+            };
 
         }
 
