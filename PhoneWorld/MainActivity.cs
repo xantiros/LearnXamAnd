@@ -1,9 +1,8 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
-using Android.Views;
 using Android.Content;
-using Java.Interop;
+using System;
 
 namespace PhoneWorld
 {
@@ -17,17 +16,28 @@ namespace PhoneWorld
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
-        }
-
-        [Export("Call")]
-        public void Call(View view)
-        {
             EditText phoneNumber = FindViewById<EditText>(Resource.Id.phoneNumber);
+            Button callButton = FindViewById<Button>(Resource.Id.callButton);
 
-            var callIntent = new Intent(Intent.ActionCall);
-            callIntent.SetData(Android.Net.Uri.Parse("tel:" + phoneNumber.Text));
-            StartActivity(callIntent);
+            callButton.Click += (object sender, EventArgs e) =>
+            {
+                var callIntent = new Intent(Intent.ActionCall);
+                callIntent.SetData(Android.Net.Uri.Parse("tel: " + phoneNumber));
+                StartActivity(callIntent);
+            };
+
+
         }
+
+        //[Export("Call")]
+        //public void Call(View view)
+        //{
+        //    EditText phoneNumber = FindViewById<EditText>(Resource.Id.phoneNumber);
+
+        //    var callIntent = new Intent(Intent.ActionCall);
+        //    callIntent.SetData(Android.Net.Uri.Parse("tel:" + phoneNumber.Text));
+        //    StartActivity(callIntent);
+        //}
         
     }
 }

@@ -3231,8 +3231,14 @@ namespace PhoneWorld
 			// aapt resource value: 0x7f09001f
 			public const int bottom_sheet_behavior = 2131296287;
 			
+			// aapt resource value: 0x7f09002a
+			public const int call_text = 2131296298;
+			
 			// aapt resource value: 0x7f090020
 			public const int character_counter_pattern = 2131296288;
+			
+			// aapt resource value: 0x7f090029
+			public const int give_number = 2131296297;
 			
 			// aapt resource value: 0x7f090021
 			public const int password_toggle_content_description = 2131296289;

@@ -6,17 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:text="Podaj Numer"
+        android:text="@string/give_number"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView1" />
     <EditText
-        android:layout_width="match_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/phoneNumber" />
     <Button
-        android:text="Call"
+        android:text="@string/call_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/callButton"
