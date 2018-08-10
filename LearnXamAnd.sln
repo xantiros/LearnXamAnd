@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnXamAnd", "LearnXamAnd\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneWorld", "PhoneWorld\PhoneWorld.csproj", "{DCBB57A9-AE8C-4813-8D89-75DA1E8BA47F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp", "SimpleApp\SimpleApp.csproj", "{79529E7F-9DAE-4A16-8FB9-C5520F50B82B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{DCBB57A9-AE8C-4813-8D89-75DA1E8BA47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCBB57A9-AE8C-4813-8D89-75DA1E8BA47F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DCBB57A9-AE8C-4813-8D89-75DA1E8BA47F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{79529E7F-9DAE-4A16-8FB9-C5520F50B82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79529E7F-9DAE-4A16-8FB9-C5520F50B82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79529E7F-9DAE-4A16-8FB9-C5520F50B82B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{79529E7F-9DAE-4A16-8FB9-C5520F50B82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79529E7F-9DAE-4A16-8FB9-C5520F50B82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79529E7F-9DAE-4A16-8FB9-C5520F50B82B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
