@@ -2645,14 +2645,20 @@ namespace SimpleApp
 			// aapt resource value: 0x7f080065
 			public const int list_item = 2131230821;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int masked = 2131230902;
+			// aapt resource value: 0x7f0800b7
+			public const int masked = 2131230903;
 			
 			// aapt resource value: 0x7f0800a6
 			public const int media_actions = 2131230886;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int message = 2131230900;
+			// aapt resource value: 0x7f0800b8
+			public const int menu_info = 2131230904;
+			
+			// aapt resource value: 0x7f0800b9
+			public const int menu_overflow = 2131230905;
+			
+			// aapt resource value: 0x7f0800b5
+			public const int message = 2131230901;
 			
 			// aapt resource value: 0x7f080042
 			public const int middle = 2131230786;
@@ -2867,6 +2873,9 @@ namespace SimpleApp
 			// aapt resource value: 0x7f080073
 			public const int title_template = 2131230835;
 			
+			// aapt resource value: 0x7f0800b4
+			public const int toolbar = 2131230900;
+			
 			// aapt resource value: 0x7f08002e
 			public const int top = 2131230766;
 			
@@ -2909,8 +2918,8 @@ namespace SimpleApp
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int visible = 2131230901;
+			// aapt resource value: 0x7f0800b6
+			public const int visible = 2131230902;
 			
 			// aapt resource value: 0x7f08004d
 			public const int withText = 2131230797;
@@ -3164,7 +3173,10 @@ namespace SimpleApp
 			public const int support_simple_spinner_dropdown_item = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int tooltip = 2130968639;
+			public const int Toolbar = 2130968639;
+			
+			// aapt resource value: 0x7f040040
+			public const int tooltip = 2130968640;
 			
 			static Layout()
 			{
@@ -3172,6 +3184,22 @@ namespace SimpleApp
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int toolbar_menu = 2131623936;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -3187,6 +3215,12 @@ namespace SimpleApp
 			
 			// aapt resource value: 0x7f030002
 			public const int ic_launcher_round = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int menu = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int menu_small = 2130903044;
 			
 			static Mipmap()
 			{
