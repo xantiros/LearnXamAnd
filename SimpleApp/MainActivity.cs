@@ -8,7 +8,7 @@ using Android.Widget;
 
 namespace SimpleApp
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppCompat", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]
     public class MainActivity : AppCompatActivity
     {
 
