@@ -2486,6 +2486,9 @@ namespace SimpleApp
 			// aapt resource value: 0x7f080090
 			public const int btnIncrement = 2131230864;
 			
+			// aapt resource value: 0x7f0800b5
+			public const int btn_show_snackbar = 2131230901;
+			
 			// aapt resource value: 0x7f080067
 			public const int buttonPanel = 2131230823;
 			
@@ -2645,20 +2648,20 @@ namespace SimpleApp
 			// aapt resource value: 0x7f080065
 			public const int list_item = 2131230821;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int masked = 2131230903;
+			// aapt resource value: 0x7f0800b9
+			public const int masked = 2131230905;
 			
 			// aapt resource value: 0x7f0800a6
 			public const int media_actions = 2131230886;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int menu_info = 2131230904;
+			// aapt resource value: 0x7f0800ba
+			public const int menu_info = 2131230906;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int menu_overflow = 2131230905;
+			// aapt resource value: 0x7f0800bb
+			public const int menu_overflow = 2131230907;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int message = 2131230901;
+			// aapt resource value: 0x7f0800b7
+			public const int message = 2131230903;
 			
 			// aapt resource value: 0x7f080042
 			public const int middle = 2131230786;
@@ -2719,6 +2722,9 @@ namespace SimpleApp
 			
 			// aapt resource value: 0x7f0800aa
 			public const int right_side = 2131230890;
+			
+			// aapt resource value: 0x7f0800b4
+			public const int root_view = 2131230900;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -2873,8 +2879,8 @@ namespace SimpleApp
 			// aapt resource value: 0x7f080073
 			public const int title_template = 2131230835;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int toolbar = 2131230900;
+			// aapt resource value: 0x7f0800b6
+			public const int toolbar = 2131230902;
 			
 			// aapt resource value: 0x7f08002e
 			public const int top = 2131230766;
@@ -2918,8 +2924,8 @@ namespace SimpleApp
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int visible = 2131230902;
+			// aapt resource value: 0x7f0800b8
+			public const int visible = 2131230904;
 			
 			// aapt resource value: 0x7f08004d
 			public const int withText = 2131230797;
@@ -3170,13 +3176,16 @@ namespace SimpleApp
 			public const int select_dialog_singlechoice_material = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int support_simple_spinner_dropdown_item = 2130968638;
+			public const int Snackbar = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int Toolbar = 2130968639;
+			public const int support_simple_spinner_dropdown_item = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int tooltip = 2130968640;
+			public const int Toolbar = 2130968640;
+			
+			// aapt resource value: 0x7f040041
+			public const int tooltip = 2130968641;
 			
 			static Layout()
 			{
